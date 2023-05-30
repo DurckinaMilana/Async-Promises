@@ -1,3 +1,5 @@
+/* eslint-disable no-unused-vars */
+/* eslint-disable no-plusplus */
 import read from '../reader';
 import gameSavingLoader from '../gameSavingLoader';
 
