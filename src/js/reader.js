@@ -1,6 +1,5 @@
-/* eslint-disable no-unused-vars */
-/* eslint-disable no-plusplus */
 export default function read() {
+  // eslint-disable-next-line no-unused-vars
   return new Promise((resolve, reject) => {
     // эмуляция чтения файла
     setTimeout(() => {
@@ -8,6 +7,7 @@ export default function read() {
       return ((input) => {
         const buffer = new ArrayBuffer(input.length * 2);
         const bufferView = new Uint16Array(buffer);
+        // eslint-disable-next-line no-plusplus
         for (let i = 0; i < input.length; i++) {
           bufferView[i] = input.charCodeAt(i);
         }
