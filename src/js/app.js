@@ -1,6 +1,7 @@
+/* eslint-disable import/no-unresolved */
 import json from './parser';
 import read from './reader';
-import GameSaving from './GameSaving';
+import GameSaving from './gameSaving';
 
 export default class GameSavingLoader {
 // class GameSavingLoader {
